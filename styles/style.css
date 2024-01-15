@@ -1,6 +1,4 @@
 .p-primary{
-    color: white;
-    text-align: center;
     font-family: 'Mulish', sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -8,6 +6,25 @@
     line-height: 26px;
 }
 
+.heading-primary{
+    color: #131318;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.btn-primary{
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 14px;
+    padding: 12px 20px;
+    border-style: none;
+}
 .nav-div{
     max-width: 1170px;
     margin: 0 auto;
@@ -78,6 +95,8 @@
 
 .banner p{
     padding: 0 80px;
+    color: white;
+    text-align: center;
 }
 
 .input{
@@ -97,4 +116,24 @@
     padding: 16px 34px;
     border-style: none;
     color: white;
+}
+
+/* Main section, image+text styles*/
+.text p li{
+    color: rgba(19, 19, 24, 0.70);
+    width: 50%;
+    text-align: left;
+}
+
+.image-text{
+    display: flex;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.image{
+    padding-left: 30px;
+}
+.text{
+    padding-left: 10px;
 }
