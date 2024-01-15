@@ -1,0 +1,47 @@
+.nav-div{
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+}
+.nav-container{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.menu-item{
+    /* border: 2px solid blueviolet; */
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-item .color{
+    color: #FF5400;
+}
+
+.menu-item a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #424247;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    line-height: normal;
+}
+.nav-container img{
+    width: 70px;
+}
+
+.nav-container p{
+    padding-left: 18px;
+    font-size: 2.25rem;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    color: #131318;
+}
+
+.nav-container span{
+    color: #FF5400;
+}
