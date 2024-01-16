@@ -406,3 +406,52 @@
     padding-top: 40px;
 
 }
+
+/* Footer styles */
+
+.footer{
+    background: rgba(19, 19, 24, 0.05);
+    padding-bottom: 30px;
+    /* border: 2px solid black; */
+}
+.logo-text img{
+    width: 70%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.logo-text{
+    /* border: 4px solid saddlebrown; */
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.logo-text h5{
+    font-size: 2.15rem;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    color: #131318;
+}
+
+.logo-text span{
+    color: #FF5400;
+}
+
+/* icon style */
+.icon{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+.hr{
+    height:1px;
+    width:872px;
+    color: #1313181A;
+}
+.footer p{
+    text-align: center;
+}
