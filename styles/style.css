@@ -85,7 +85,6 @@
 .nav-container span{
     color: #FF5400;
 }
-
 /* Banner Section */
 .banner{
     max-width: 1170px;
@@ -123,12 +122,30 @@
     padding: 16px;
     border-radius: 8px;
 }
+.input input{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    padding-left: 16px;
+    font-size: 16px;
+}
+.input select{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    padding-left: 16px;
+    font-size: 16px;
+}
 .submit-btn{
+    height: 52px;
     border-radius: 8px;
     background: #FF5400;
     padding: 16px 34px;
     border-style: none;
     color: white;
+    font-size: 16px;
 }
 
 /* Main section, image+text styles*/
@@ -176,9 +193,9 @@
     border-radius: 16px;
     background-image: linear-gradient(rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20)100%), url(../Images/Rectangle\ 5.png);
     background-repeat: no-repeat;
-    width: 570px;
+    width: 573px;
     height: 300px;
-    width: 48%;
+    width: 49%;
 }
 .grid-1 p{
     color: #FFF;
@@ -203,9 +220,9 @@
     padding-bottom: 50px;
 }
 .grid-2{
-    width: 570px;
+    width: 573px;
     height: 300px;
-    width: 48%;
+    width: 49%;
     border-radius: 16px;
     background-image: linear-gradient(rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20)100%), url(../Images/Rectangle\ 8.png);
     background-repeat: no-repeat;
@@ -383,6 +400,7 @@
     max-width: 572px;
     margin: 0 auto;
     padding-top: 24px;
+    padding-bottom: 24px;
 }
 .Guarantee-sub p{
     text-align: left;
@@ -395,16 +413,6 @@
     padding-top: 20px;
     padding-bottom: 20px;
     padding-right: 32px; 
-}
-
-/* Mellow-Offers styles */
-
-.Mellow-Offers{
-    max-width: 1170px;
-    margin: 0 auto;
-    text-align: center;
-    padding-top: 40px;
-
 }
 
 /* Footer styles */
