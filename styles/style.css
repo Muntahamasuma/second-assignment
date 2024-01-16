@@ -28,6 +28,16 @@
     padding: 12px 20px;
     border-style: none;
 }
+
+.heading-secondary{
+    color: #131318;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
 .nav-div{
     max-width: 1170px;
     margin: 0 auto;
@@ -324,4 +334,75 @@
     border-radius: 16px;
     background-image: linear-gradient(rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20)100%), url(../Images/Rectangle\ 10.png);
     background-repeat: no-repeat;
+}
+
+/* <!-- ✨ Join the Mellow Community styles --> */
+.Join-Community p{
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 60px;
+}
+.Join-Community-container{
+    /* border: 4px solid black; */
+    display: flex;
+    justify-content: space-between;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-top: 48px;
+}
+.hotels{
+    /* border: 4px solid red; */
+    /* height: 280px; */
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 49%;
+    padding-left: 32px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 32px;
+}
+.services{
+    /* border: 4px solid blue; */
+    /* height: 280px; */
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    width: 49%;
+    padding-left: 32px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 32px;
+}
+.Join-Community-container p{
+    text-align: left;
+}
+.Guarantee-sub{
+    /* border: 4px solid red; */
+    max-width: 572px;
+    margin: 0 auto;
+    padding-top: 24px;
+}
+.Guarantee-sub p{
+    text-align: left;
+}
+.Guarantee{
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05); 
+    padding-left: 32px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 32px; 
+}
+
+/* Mellow-Offers styles */
+
+.Mellow-Offers{
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 40px;
+
 }
